@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header with Back Button and Bell -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <!-- Back Button Group (Arrow + Text) -->
+            <LinearLayout
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/backarrow"
+                    android:tint="@color/burgundy"
+                    tools:ignore="UseAppTint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textColor="@color/burgundy"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:drawablePadding="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp" />
+            </LinearLayout>
+
+            <!-- Notification Bell -->
+            <ImageView
+                android:id="@+id/notificationBell"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_notification_bell"
+                android:tint="@android:color/white" />
+        </RelativeLayout>
+
+        <!-- Page Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PACKAGE D"
+            android:textColor="@color/burgundy"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Package Content -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Package Card -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Package Title -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/burgundy"
+                            android:gravity="center"
+                            android:padding="12dp"
+                            android:text="PACKAGE D - ₱1,295"
+                            android:textColor="@android:color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <!-- Package Description -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp"
+                            android:gravity="center"
+                            android:lineSpacingExtra="4dp"
+                            android:background="@android:color/white"
+                            android:text="4 poses (toga, executive or barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n5 – 2x2 toga\n4 – 1x1 toga\n1 – 8R executive or barong/filipiniana\n2 – 2R executive or barong/filipiniana"
+                            android:textColor="#666666"
+                            android:textSize="16sp" />
+
+                        <!-- Sample Images Section -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:padding="16dp"
+                            android:text="Sample Images"
+                            android:textColor="@color/burgundy"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <!-- Image Grid -->
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:columnCount="2"
+                            android:padding="16dp">
+
+                            <!-- Sample Image 1 -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="200dp"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="16dp"
+                                app:cardElevation="6dp">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/sampleImage1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#EEEEEE"
+                                        android:contentDescription="Sample Image 1"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/sample1" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/gradient_overlay" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|start"
+                                        android:layout_margin="16dp"
+                                        android:text="Toga Pose"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </FrameLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Sample Image 2 -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="200dp"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="16dp"
+                                app:cardElevation="6dp">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/sampleImage2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#EEEEEE"
+                                        android:contentDescription="Sample Image 2"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/sample2" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/gradient_overlay" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|start"
+                                        android:layout_margin="16dp"
+                                        android:text="Executive Pose"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </FrameLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Sample Image 3 -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="200dp"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="16dp"
+                                app:cardElevation="6dp">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/sampleImage3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#EEEEEE"
+                                        android:contentDescription="Sample Image 3"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/sample3" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/gradient_overlay" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|start"
+                                        android:layout_margin="16dp"
+                                        android:text="Barong Pose"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </FrameLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Sample Image 4 -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="200dp"
+                                android:layout_columnWeight="1"
+                                android:layout_margin="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="16dp"
+                                app:cardElevation="6dp">
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/sampleImage4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#EEEEEE"
+                                        android:contentDescription="Sample Image 4"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/sample4" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/gradient_overlay" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|start"
+                                        android:layout_margin="16dp"
+                                        android:text="Filipiniana Pose"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+                                </FrameLayout>
+                            </androidx.cardview.widget.CardView>
+                        </GridLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/choosePackageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE THIS PACKAGE"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout> 

@@ -1,0 +1,19 @@
+### Test the base endpoint
+GET http://localhost:3000/
+
+### Get all photos
+GET http://localhost:3000/api/photos
+
+### Add a new photo
+POST http://localhost:3000/api/photos
+Content-Type: application/json
+
+{
+    "title": "Test Photo",
+    "description": "This is a test photo",
+    "imageUrl": "https://example.com/test.jpg",
+    "category": "Test"
+}
+
+### Get a specific photo (replace {id} with actual photo ID)
+GET http://localhost:3000/api/photos/{id} 

@@ -1,0 +1,9 @@
+{
+    "mongodb.connections": [
+        {
+            "name": "Boblim Photography DB",
+            "connectionString": "mongodb+srv://baguiojosh:htk1BuE5YYDEXzEE@blpapplication.fs2ws3z.mongodb.net/",
+            "database": "boblim_photography"
+        }
+    ]
+} 

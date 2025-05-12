@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BOBLIM</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be &gt;5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="package_list_title">Package List</string>
+    <string name="package_a_price">PACKAGE A - ₱1,300</string>
+    <string name="package_b_price">PACKAGE B - ₱1,095</string>
+    <string name="package_c_price">PACKAGE C - ₱895</string>
+    <string name="package_d_price">PACKAGE D - ₱1,550</string>
+    <string name="package_e_price">PACKAGE E - ₱1,345</string>
+    <string name="package_f_price">PACKAGE F - ₱1,145</string>
+    <string name="package_m_price">PACKAGE M - ₱2,300</string>
+    <string name="package_n_price">PACKAGE N - ₱2,500</string>
+    <string name="samples">Samples:</string>
+    <string name="executive_poses">Executive\n(5 Poses)</string>
+    <string name="toga_without_cap">Toga Without\nCap\n(5 Poses)</string>
+    <string name="nav_back">Back</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="back_arrow_desc">Back arrow icon</string>
+    <string name="notification_bell_desc">Notification bell icon</string>
+    <string name="calendar_icon_desc">Calendar icon</string>
+    <string name="list_icon_desc">List icon</string>
+    <string name="home_icon_desc">Home icon</string>
+    <string name="profile_icon_desc">Profile icon</string>
+    <string name="settings_icon_desc">Settings icon</string>
+    <string name="sample1_desc">Sample 1 image showing executive poses</string>
+    <string name="sample2_desc">Sample 2 image showing toga without cap</string>
+
+    <!-- Calendar Activity Strings -->
+    <string name="search_coming_soon">Search coming soon!</string>
+    <string name="filter_coming_soon">Filter coming soon!</string>
+    <string name="error_loading_calendar">Error loading calendar</string>
+    <string name="error_setting_calendar">Error setting up calendar</string>
+    <string name="view_all">View All</string>
+    <string name="view_week">View Week</string>
+    <string name="selected_day">Selected: %1$s %2$s</string>
+    <string name="selected_date">Selected: %1$s</string>
+    <string name="select_gender">Select Gender</string>
+
+    <!-- Booking Activity Strings -->
+    <string name="back_button">Back</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="select_package">Select Package</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="additional_notes">Additional Notes</string>
+    <string name="notes_hint">Enter any additional notes or requirements</string>
+    <string name="book_button">Book Appointment</string>
+    <string name="date_hint">Select date</string>
+    <string name="time_hint">Select time</string>
+
+    <!-- History Activity Strings -->
+    <string name="history">History</string>
+    <string name="no_history_available">No history available</string>
+
+    <!-- Package Activity Strings -->
+    <string name="packages">Packages</string>
+    <string name="no_packages_available">No packages available</string>
+
+    <!-- Settings Activity Strings -->
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="save">Save</string>
+
+    <!-- Forgot Password Strings -->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_description">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="email">Email</string>
+
+    <!-- Activity List Strings -->
+    <string name="back_arrow">Back arrow</string>
+    <string name="package_list">PACKAGE LIST</string>
+    <string name="search_packages">Search Packages</string>
+    <string name="calendar">Calendar</string>
+    <string name="list">List</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+    <!-- Package Descriptions -->
+    <string name="package_a_desc">3 poses (toga, executive, barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n5 – 2x2 toga\n4 – 1x1 toga\n1 – 8R executive\n2 – 2R executive\n1 – 8R barong/filipiniana\n2 – 2R barong/filipiniana</string>
+    <string name="package_b_desc">2 poses (toga, executive or barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n5 – 2x2 toga\n4 – 1x1 toga\n1 – 8R executive or barong/filipiniana\n2 – 2R executive or barong/filipiniana</string>
+    <string name="package_c_desc">1 pose (toga)\n\n1 – 8R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n4 – 2x2 toga\n8 – 1x1 toga</string>
+    <string name="package_d_desc">4 poses (toga, executive, barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n5 – 2x2 toga\n4 – 1x1 toga\n1 – 8R toga with cap\n2 – 2R toga with cap\n1 – 8R executive\n2 – 2R executive\n1 – 8R barong/filipiniana\n2 – 2R barong/filipiniana</string>
+    <string name="package_e_desc">3 poses (toga, executive or barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n5 – 2x2 toga\n4 – 1x1 toga\n1 – 8R toga with cap\n2 – 2R toga with cap\n1 – 8R executive or barong/filipiniana\n2 – 2R executive or barong/filipiniana</string>
+    <string name="package_f_desc">2 poses (toga)\n\n1 – 8R toga\n4 – 2R toga\n2 – 2R toga (black &amp; white)\n4 – 2x2 toga\n8 – 1x1 toga\n1 – 8R toga with cap\n2 – 2R toga with cap</string>
+    <string name="package_m_desc">3 poses (toga, executive, barong/filipiniana)\n\n1 – 8R toga\n4 – 2R toga\n2 – 2R black &amp; white\n1 – 8R executive\n1 – 8R barong/filipiniana\n5 – 2x2\n2 – 2R executive\n2 – 2R barong/filipiniana\n4 – 1x1</string>
+    <string name="package_n_desc">3 poses (toga, executive, barong/filipiniana)\n\n1 – 11R toga\n4 – 2R toga\n2 – 2R black &amp; white\n1 – 8R executive\n1 – 8R barong/filipiniana\n5 – 2x2\n2 – 2R executive\n2 – 2R barong/filipiniana\n4 – 1x1</string>
+</resources>

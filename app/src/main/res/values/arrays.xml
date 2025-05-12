@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="package_types">
+        <item>Search Packages</item>
+        <item>BASIC PACKAGES</item>
+        <item>PACKAGE A - ₱1,300</item>
+        <item>PACKAGE B - ₱1,095</item>
+        <item>PACKAGE C - ₱895</item>
+        <item>BASIC + CAP PACKAGES</item>
+        <item>PACKAGE D - ₱1,550</item>
+        <item>PACKAGE E - ₱1,345</item>
+        <item>PACKAGE F - ₱1,145</item>
+        <item>3-N-1 FRAME PACKAGES</item>
+        <item>PACKAGE M - ₱2,300</item>
+        <item>PACKAGE N - ₱2,500</item>
+    </string-array>
+    <string-array name="gender_options">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-binary</item>
+        <item>Transgender</item>
+        <item>Other</item>
+        <item>Prefer not to say</item>
+    </string-array>
+    <string-array name="time_slots">
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+    </string-array>
+    <string-array name="service_types">
+        <item>Photo Session</item>
+        <item>Video Session</item>
+        <item>Photo and Video Package</item>
+        <item>Event Coverage</item>
+        <item>Portrait Session</item>
+    </string-array>
+</resources> 
